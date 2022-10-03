@@ -64,6 +64,17 @@ public class Main {
         //домашнее задание 3
         //задание 3
 
+        int one = 111112;
+        int two = 12;
+        int free = 3443;
+
+        if (one > two && one > free) {
+            System.out.println(one);
+        } else if (two > one && two >free) {
+            System.out.println(two);
+        } else if (free > one && free >two) {
+            System.out.println(free);
+        }
 
 
     }
