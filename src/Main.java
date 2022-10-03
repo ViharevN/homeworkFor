@@ -20,7 +20,23 @@ public class Main {
             } else if (ageOne >=24) {
                 System.out.println("человек окончил университет и ему пора искать первую работу");
             }
+        //задание 3
 
+        int places = 60;
+        int humansPlacesSits = 60;//люди на сидячие места
+        int humans = 102;
+        int placesStand = humans-places;
+        int humansPlacesStand = 42;//люди на стоячие места
+        if (humansPlacesSits > places ) {
+            System.out.println("сидячие места отсутствуют");
+        } else if (humansPlacesSits <= places) {
+            System.out.println("места еще есть");
+        }
+        if (humansPlacesStand >placesStand) {
+            System.out.println("стоячих мест нет");
+        } else if (humansPlacesStand <= placesStand) {
+            System.out.println("стоячие места еще есть");
+        }
 
     }
 }
