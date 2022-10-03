@@ -12,7 +12,7 @@ public class Main {
         //задание 2
 
         int ageOne = 7;
-            if (ageOne >=7&&ageOne<18)
+            if (ageOne >=7 && ageOne<18)
             {
             System.out.println("ребенок ходит в школу");
             } else if (ageOne >= 18&&ageOne<24) {
@@ -36,6 +36,19 @@ public class Main {
             System.out.println("стоячих мест нет");
         } else if (humansPlacesStand <= placesStand) {
             System.out.println("стоячие места еще есть");
+        }
+        //домашнее задание 3
+        //задание 1
+
+        int ageHuman = 18;
+        if (ageHuman >= 2 && ageHuman <= 6) {
+            System.out.println("нужно ходить в детский сад");
+        } else if (ageHuman >= 7 && ageHuman <= 18) {
+            System.out.println("нужно ходить в школу");
+        } else if (ageHuman > 18 && ageHuman < 24) {
+            System.out.println("место человека в университете");
+        } else if (ageHuman >= 24) {
+            System.out.println("человеку пора ходить на работу");
         }
 
     }
